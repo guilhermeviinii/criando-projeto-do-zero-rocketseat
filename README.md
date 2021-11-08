@@ -8,7 +8,7 @@
 <img src="/img/2021-11-08_15-27.png" alt="Tela 2">
 <p>Ao clicar em um dos posts na Página inicial, o usuário é redirecionado para a página do post em si, onde tem os detalhes do post como [titulo, banner, autor, conteudo]</p>
 
-<h1>FERRAMENTAS E TÉCNOLOGIAS UTILIZADAS</h1>
+<h1>FERRAMENTAS E TECNOLOGIAS UTILIZADAS</h1>
 <ul>
   <li>DATE-FNS</li>
   <li>PRISMIC</li>
