@@ -1,1 +1,53 @@
-// TODO
+@import '../styles/common.module.scss';
+
+.homeContainer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.posts {
+  margin-top: 4.075rem;
+
+  a {
+    display: block;
+    & + a {
+      margin-top: 50px;
+    }
+
+    h1 {
+      color: $heading;
+    }
+    p {
+      font-size: 1.125rem;
+      margin-top: 0.5rem;
+      color: $body;
+    }
+    div {
+      margin-top: 1.5rem;
+      font-size: 0.875rem;
+      color: $info;
+
+      display: flex;
+      align-items: center;
+
+      time {
+        margin-right: 1.8rem;
+      }
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+
+.buttonLoadMore{
+  background: transparent;
+  border: none;
+  color: $highlight;
+  font-weight: 600;
+  font-size: 18;
+  margin-top: 4rem;
+  cursor: pointer;
+}
